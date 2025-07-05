@@ -1,1 +1,13 @@
 venv/
+
+# Ignore all notebook checkpoints
+**/.ipynb_checkpoints/
+
+# Ignore notebook outputs converted to HTML or other formats
+*.nbconvert.*
+*.html
+*.out.ipynb
+
+# Ignore VSCode and Jupyter hidden settings (optional)
+.vscode/
+.ipynb_checkpoints/
